@@ -50,32 +50,8 @@ A full-stack, real-time collaborative code editor that allows multiple users to 
 
 ---
 
-## 📂 Project Structure
 
-Real-Time-Code-Collaborator/
-│
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Home.js
-│   │   │   ├── Editor.js
-│   │   │   ├── EditorPage.js
-│   │   │   └── Client.js
-│   │   ├── Actions.js
-│   │   ├── Socket.js
-│   │   └── App.js
-│   ├── public/
-│   ├── package.json
-│   └── .gitignore
-│
-├── server/
-│   ├── index.js
-│   ├── Actions.js
-│   └── package.json
-│
-├── .gitignore
-└── README.md
----
+
 
 ## ▶️ How to Run the Project Locally
 

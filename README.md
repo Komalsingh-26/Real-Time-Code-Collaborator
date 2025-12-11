@@ -51,7 +51,7 @@ A full-stack, real-time collaborative code editor that allows multiple users to 
 ---
 
 ## 📂 Project Structure
-```
+
 Real-Time-Code-Collaborator/
 │
 ├── client/
@@ -108,12 +108,12 @@ Frontend runs at:
 ```
 http://localhost:3000
 ```
-```
+
 ---
 
 ## ⚙️ Architecture Overview
 
-```
+
 Client (React + CodeMirror)
         │
         │ WebSocket (Socket.IO)
@@ -123,7 +123,7 @@ Server (Node.js + Express)
         │ API Call
         ▼
 JDoodle Code Execution API
-```
+
 
 ---
 

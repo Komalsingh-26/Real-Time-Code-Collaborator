@@ -117,24 +117,31 @@ Real-Time Code Collaborator is built on an event-driven, WebSocket-based archite
 
 ---
 
+## ⚙️ Architecture Overview
+
+Real-Time Code Collaborator is built on an event-driven, WebSocket-based architecture designed for real-time, multi-user code editing with low latency.
+
+---
+
 ### 🏗️ System Architecture
 Shows how the frontend, backend, and database interact.
 
-![Architecture](./assets/architecture.png)
+<img src="./assets/architecture.png" width="650"/>
 
 ---
 
 ### 🔌 WebSocket Communication Flow
 Explains how real-time events propagate between clients through the Socket.IO server.
 
-![Socket Flow](./assets/socket-flow.png)
+<img src="./assets/socket-flow.png" width="450"/>
 
 ---
 
 ### 👥 Room Management Flow
 Illustrates how users join rooms, load initial code state, and start synchronized editing sessions.
 
-![Room Flow](./assets/room-flow.png)
+<img src="./assets/room-flow.png" width="450"/>
+
 
 
 

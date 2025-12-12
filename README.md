@@ -111,19 +111,32 @@ http://localhost:3000
 ```
 
 ---
-
 ## ⚙️ Architecture Overview
 
+Real-Time Code Collaborator is built on an event-driven, WebSocket-based architecture designed for real-time, multi-user code editing with low latency.
 
-Client (React + CodeMirror)
-        │
-        │ WebSocket (Socket.IO)
-        ▼
-Server (Node.js + Express)
-        │
-        │ API Call
-        ▼
-JDoodle Code Execution API
+---
+
+### 🏗️ System Architecture
+Shows how the frontend, backend, and database interact.
+
+![Architecture](./assets/architecture.png)
+
+---
+
+### 🔌 WebSocket Communication Flow
+Explains how real-time events propagate between clients through the Socket.IO server.
+
+![Socket Flow](./assets/socket-flow.png)
+
+---
+
+### 👥 Room Management Flow
+Illustrates how users join rooms, load initial code state, and start synchronized editing sessions.
+
+![Room Flow](./assets/room-flow.png)
+
+
 
 
 ---

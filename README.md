@@ -110,12 +110,9 @@ Frontend runs at:
 http://localhost:3000
 ```
 
----
-## ⚙️ Architecture Overview
-
-Real-Time Code Collaborator is built on an event-driven, WebSocket-based architecture designed for real-time, multi-user code editing with low latency.
 
 ---
+
 
 ## ⚙️ Architecture Overview
 
